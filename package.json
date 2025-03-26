@@ -1,0 +1,27 @@
+{
+  "name": "server-1001",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'Nothing to build'",
+    "dev": "nodemon index.js"
+ 
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.14.2",
+    "mongoose": "^8.12.1",
+    "nodemon": "^3.1.9"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "vite": "^6.2.2"
+  }
+}
